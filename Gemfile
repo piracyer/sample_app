@@ -6,6 +6,11 @@ gem 'rails', '4.2.0'
 # state-of-the-art hash function for hashing passwords
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '3.1.7'
+# Make sample users with semi-realistic names
+gem 'faker', '1.4.2'
+# Pagination services
+gem 'will_paginate', '3.0.7'
+gem 'bootstrap-will_paginate', '0.0.10'
 # bootstrap-sass converts Less to Sass and makes all the necessary Bootstrap files
 # available to the current application
 gem 'bootstrap-sass', '3.2.0.0'
